@@ -1,0 +1,40 @@
+body{
+  background-color: #dddee3;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  height: 100%;
+  font-family: 'Segoe UI', sans-serif;
+  color: #111;
+}
+
+/* Navbar */
+.navbar {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 50px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #4E47FF;
+}
+
+.signup-btn {
+  background-color: #4E47FF;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-weight: 500;
+  cursor: pointer;
+}
